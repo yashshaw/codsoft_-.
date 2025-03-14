@@ -2,7 +2,6 @@ import random
 import string
 
 def generate_password(length=12):
-    """Generates a secure random password of given length."""
     if length < 4:
         return "Password length must be at least 4."
 
